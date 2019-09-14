@@ -17,7 +17,6 @@ public class Main {
         int cashbacklimit = 3_000;
         if (cashback > cashbacklimit) {
             cashback = cashbacklimit;
-            else {
             cashback = result;
         }
         System.out.println(cashback);
