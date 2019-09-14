@@ -16,7 +16,7 @@ public class Main {
         int cashback;
         int cashbacklimit = 3_000;
         if (result > cashbacklimit)
-            cashback = 3_000;
+            cashback = cashbacklimit;
         else {
             cashback = result;
         }
