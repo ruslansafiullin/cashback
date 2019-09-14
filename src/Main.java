@@ -13,11 +13,11 @@ public class Main {
                         amountInHigh * percentInHigh +
                         amountInSpecial * percentInSpecial
         ) / 100;
-        int cashback;
+        int cashback = result;
         int cashbacklimit = 3_000;
-        if (result > cashbacklimit)
+        if (cashback > cashbacklimit) {
             cashback = cashbacklimit;
-        else {
+            else {
             cashback = result;
         }
         System.out.println(cashback);
