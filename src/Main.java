@@ -15,4 +15,3 @@ public class Main {
                 ) / 100;
         System.out.println(result);
     }
-}
